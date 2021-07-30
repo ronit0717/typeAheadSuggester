@@ -63,6 +63,7 @@ Registration successful
 Registration successful  
 Registration successful  
 Registration successful  
+Registration successful    
 Printing suggestions...  
 hello robot  
 hello ronit  
