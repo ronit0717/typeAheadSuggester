@@ -5,9 +5,9 @@ Typeahead suggestions enable users to search for known and frequently searched t
 [Documentation](https://docs.google.com/document/d/1NGVs2QgiqgrNyRPAmKuCFoYq-UaVKFarkPE85Cdn4VA/edit?usp=sharing)
 
 ## Example:
-**Hello** World
-**Hello** Ronit
-**Hello** Robot
+**Hello** World  
+**Hello** Ronit  
+**Hello** Robot  
 In the above strings, there is a common part *"Hello"*. 
 
 **Expectation**:  When the user enters the text *"Hello"*, our application should return back all three suggestions, ie. "**Hello** World", "**Hello** Ronit", "**Hello** Robot".
