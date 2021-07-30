@@ -34,6 +34,8 @@ The application uses the **Trie** data-structure.
 ### Time complexity
 The time-complexity of the program is in the order of length of the string O(Length of String).
 
+[Documentation](https://docs.google.com/document/d/1NGVs2QgiqgrNyRPAmKuCFoYq-UaVKFarkPE85Cdn4VA/edit?usp=sharing)
+
 ## Commands
 1. **register** < some string for reference >
 			This command enters a new string which can be used as reference to give suggestions. The string should have only alphanumeric characters and spaces, else exception in thrown
