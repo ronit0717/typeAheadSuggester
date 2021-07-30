@@ -55,6 +55,7 @@ register how are you
 register how are you doing  
 suggest hello  
 suggest how  
+exit
 
 #### Output
 
@@ -69,3 +70,4 @@ hello world
 Printing suggestions...  
 how are you doing  
 how are you  
+Terminating Type Ahead Suggester Application

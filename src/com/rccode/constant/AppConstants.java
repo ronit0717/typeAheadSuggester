@@ -14,4 +14,8 @@ public class AppConstants {
 
     public static final int EOL_INDEX = 37;
 
+    public static final String REGISTER_COMMAND = "register";
+
+    public static final String SUGGEST_COMMAND = "suggest";
+
 }

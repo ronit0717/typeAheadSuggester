@@ -30,10 +30,10 @@ public class Main {
 
     private static void processCommand(String command) {
         try {
-            if (command.indexOf("register") == 0) {
-                service.registerString(dictionary, command.substring(8));
-            } else if (command.indexOf("suggest") == 0) {
-                service.typeAheadSuggest(dictionary, command.substring(7));
+            if (command.indexOf(AppConstants.REGISTER_COMMAND) == 0) {
+                service.registerString(dictionary, command.substring(AppConstants.REGISTER_COMMAND.length()));
+            } else if (command.indexOf(AppConstants.SUGGEST_COMMAND) == 0) {
+                service.typeAheadSuggest(dictionary, command.substring(AppConstants.SUGGEST_COMMAND.length()));
             } else {
                 System.out.println(AppConstants.INVALID_COMMAND_MESSAGE);
             }
