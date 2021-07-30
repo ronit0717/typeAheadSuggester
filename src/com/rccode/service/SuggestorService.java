@@ -15,8 +15,8 @@ public class SuggestorService {
      * Assumption: The dictionary accepts only small case letter between a-z, space character and numeric characters between 0-9
      * If the string contains any capital case characters, they are converted to small case characters
      * If the string encounters any other character, then exception is thrown
-     * @param dictionary
-     * @param str
+     * @param dictionary object (TRIE data structure)
+     * @param str input string that needs to be registered
      */
     public void registerString(Dictionary dictionary, String str) {
         String cleanString = getCleanString(str) + AppConstants.EOL;
@@ -67,6 +67,13 @@ public class SuggestorService {
         }
     }
 
+    /**
+     * The method takes a input string, and converts all characters in small case
+     * The method removes redundant spaces
+     * If any invalid charater found, the method throws exception
+     * @param str the original string
+     * @return cleaned up string
+     */
     private String getCleanString(String str) {
         StringBuilder sb = new StringBuilder();
         str = str.toLowerCase().trim();
@@ -94,6 +101,10 @@ public class SuggestorService {
         return sb.toString();
     }
 
+    /**
+     * @param c character
+     * @return The method returns the index of charater c
+     */
     private int getIndexOfCharacter(char c) {
         int index;
         if (c == AppConstants.SPACE) {
