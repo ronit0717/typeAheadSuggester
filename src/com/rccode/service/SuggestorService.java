@@ -39,6 +39,7 @@ public class SuggestorService {
             }
             prevNode = nodes[index];
         }
+        System.out.println("Registration successful");
     }
 
     public void typeAheadSuggest(Dictionary dictionary, String str) {
