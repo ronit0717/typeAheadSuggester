@@ -23,11 +23,12 @@ The application uses the **Trie** data-structure.
 
 ### Data structure: Trie (Dictionary)
 
-```mermaid
-graph LR
-A(('h')) --> B(('e')) --> C(('l')) --> D(('l')) --> E(('o')) --> F((' ')) --> G(('w')) --> H(('o')) --> I(('r')) --> J(('l')) --> K(('d')) --> L((End))
-F((' ')) --> M(('r')) --> N(('o')) --> O(('n')) --> P(('i')) --> Q(('t')) --> R((End))
-N(('o')) --> S(('b')) --> T(('o')) --> U(('t')) --> V((End))
+```
+'h' -> 'e' -> 'l' -> 'l' -> 'o' -> ' ' -> 'w' -> 'o' -> 'r' -> 'l' -> 'd' -> End 
+                                     \
+                                      \-> 'r' -> 'o' -> 'n' -> 'i' -> 't' -> End
+                                                   \
+                                                    \-> 'b' -> 'o' -> 't' -> End
 ```
 
 ### Time complexity
