@@ -84,7 +84,7 @@ public class SuggestorService {
                     }
                 }
                 sb.append(str.charAt(i));
-            } else if (str.charAt(i) >= 'a' && str.charAt(i) <= 'z') {
+            } else if ((str.charAt(i) >= 'a' && str.charAt(i) <= 'z') || (str.charAt(i) >= '0' && str.charAt(i) <= '9')) {
                 sb.append(str.charAt(i));
             } else {
                 //invalid string
