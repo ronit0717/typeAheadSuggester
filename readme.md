@@ -46,26 +46,24 @@ The time-complexity of the program is in the order of length of the string O(Len
 ### example
 
 #### Commands
-register hello world
-register hello ronit
-register hello robot
-register how are you
-register how are you doing
-suggest hello
-suggest how
+register hello world  
+register hello ronit  
+register hello robot  
+register how are you  
+register how are you doing  
+suggest hello  
+suggest how  
 
 #### Output
 
-Registration successful
-Registration successful
-Registration successful
-Registration successful
-
-Printing suggestions...
-hello robot
-hello ronit
-hello world
-
-Printing suggestions...
-how are you doing
-how are you
+Registration successful  
+Registration successful  
+Registration successful  
+Registration successful  
+Printing suggestions...  
+hello robot  
+hello ronit  
+hello world  
+Printing suggestions...  
+how are you doing  
+how are you  
