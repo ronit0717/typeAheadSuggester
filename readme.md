@@ -37,12 +37,12 @@ The application uses the **Trie** data-structure.
 The time-complexity of the program is in the order of length of the string O(Length of String).
 
 ## Commands
-1. **register** < some string for reference >
+1. **register** < some string for reference >  
 			This command enters a new string which can be used as reference to give suggestions. The string should have only alphanumeric characters and spaces, else exception in thrown
 
-2. **suggest** < some string >
+2. **suggest** < some string >  
 			This prints a list of suggestions matching the text <*some string*>
-3. **exit**
+3. **exit**  
 			Exits the command line application
 
 ### example
