@@ -42,6 +42,11 @@ public class SuggestorService {
         System.out.println("Registration successful");
     }
 
+    /**
+     * The method takes the dictionary and the string as input, and prints all the suggestions for the string
+     * @param dictionary Referred for providing the suggestions
+     * @param str : Suggestions are provided for this string
+     */
     public void typeAheadSuggest(Dictionary dictionary, String str) {
         String cleanString = getCleanString(str);
         Node node = null;
@@ -104,7 +109,7 @@ public class SuggestorService {
 
     /**
      * @param c character
-     * @return The method returns the index of charater c
+     * @return The method returns the index of character c
      */
     private int getIndexOfCharacter(char c) {
         int index;
