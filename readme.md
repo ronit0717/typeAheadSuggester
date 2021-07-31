@@ -2,7 +2,14 @@
 
 Typeahead suggestions enable users to search for known and frequently searched terms. As the user types into the search box, it tries to predict the query based on the characters the user has entered and gives a list of suggestions to complete the query. Typeahead suggestions help the user to articulate their search queries better. It’s not about speeding up the search process but rather about guiding the users and lending them a helping hand in constructing their search query. 
 
-[Documentation](https://docs.google.com/document/d/1NGVs2QgiqgrNyRPAmKuCFoYq-UaVKFarkPE85Cdn4VA/edit?usp=sharing)
+[Documentation](https://docs.google.com/document/d/1NGVs2QgiqgrNyRPAmKuCFoYq-UaVKFarkPE85Cdn4VA/edit?usp=sharing)  
+[Jar File Link](https://drive.google.com/file/d/1B7eLFSbkN_FHEQ6QmHQWPvGGkv1pxcw0/view?usp=sharing)  
+
+##### Command to run jar file
+```
+java -jar typeaheadSuggestor.jar
+```
+
 
 ## Example:
 **Hello** World  

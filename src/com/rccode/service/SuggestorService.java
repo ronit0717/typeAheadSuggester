@@ -50,6 +50,7 @@ public class SuggestorService {
     public void typeAheadSuggest(Dictionary dictionary, String str) {
         String cleanString = getCleanString(str);
         Node node = null;
+        boolean noMatch = false;
         for (int i = 0; i < cleanString.length(); i++) {
             char c = cleanString.charAt(i);
             int index = getIndexOfCharacter(c);
@@ -58,11 +59,12 @@ public class SuggestorService {
             if (nodes[index] != null) {
                 node = nodes[index];
             } else {
+                noMatch = true;
                 break;
             }
         }
 
-        List<String> suggestions = (node == null) ? null : node.getNextNodeSuggestions();
+        List<String> suggestions = (noMatch || node == null) ? null : node.getNextNodeSuggestions();
         if (suggestions == null || suggestions.size() == 0) {
             System.out.println("No suggestions...");
         } else {
